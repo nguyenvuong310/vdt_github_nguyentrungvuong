@@ -205,9 +205,19 @@ def user_stats(df):
     print('-'*40)
 
 
+
+
 def view_raw_data(df):
     """
-    Display raw data if you want to see.
+    Hiển thị dữ liệu gốc (raw data) từng phần nếu người dùng yêu cầu.
+
+    Tham số:
+        df (DataFrame): DataFrame chứa dữ liệu bikeshare đã load.
+
+    Chức năng:
+        - Hỏi người dùng xem họ có muốn xem dữ liệu gốc không.
+        - Nếu có, hiển thị 5 dòng dữ liệu mỗi lần.
+        - Lặp lại cho đến khi người dùng chọn 'no'.
     """
     row = 0
     while True:
