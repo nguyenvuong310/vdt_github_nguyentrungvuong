@@ -29,7 +29,7 @@
 ### 1. Cài đặt thư viện (nếu chưa có):
 
 ```bash
-pip install pandas numpy
+pip install numpy pandas
 ```
 
 ### 2. Chạy chương trình
