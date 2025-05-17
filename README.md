@@ -1,17 +1,41 @@
->**Note**: Please **fork** the current VDT repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# 🚲 Phân Tích Dữ Liệu Bikeshare Hoa Kỳ
 
-### Date created
-Include the date you created this project and README file.
+Đây là một chương trình dòng lệnh viết bằng Python giúp bạn khám phá dữ liệu đi xe đạp chia sẻ (bikeshare) tại ba thành phố: **Chicago**, **New York City**, và **Washington**.
 
-### Project Title
-Replace the Project Title
+## 🧰 Tính Năng
 
-### Description
-Describe what your project is about and what it does
+- Lọc dữ liệu theo:
+  - **Thành phố**: Chicago, New York, Washington
+  - **Tháng**: Từ January đến June
+  - **Thứ trong tuần**: Monday đến Sunday
+- Hiển thị thống kê:
+  - Thời gian đi lại phổ biến
+  - Trạm bắt đầu và kết thúc phổ biến
+  - Tổng và trung bình thời gian chuyến đi
+  - Thống kê người dùng (loại người dùng, giới tính, năm sinh)
+- Xem **dữ liệu gốc** từng phần (5 dòng một lần)
+- Hỗ trợ kiểm tra và xử lý **nhập sai** hoặc **dừng chương trình đột ngột**
 
-### Files used
-Include the files used
+## 📁 Tệp Dữ Liệu
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+- `chicago.csv`
+- `new_york_city.csv`
+- `washington.csv`
 
+> **Lưu ý**: Một số tệp (như Washington) **không có** dữ liệu về giới tính hoặc năm sinh.
+
+## 💻 Cách Sử Dụng
+
+### 1. Cài đặt thư viện (nếu chưa có):
+
+```bash
+pip install pandas numpy
+```
+
+### 2. Chạy chương trình
+
+```bash
+python3 bikeshare.py
+```
+
+### 3. Kết quả
